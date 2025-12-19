@@ -1,0 +1,38 @@
+# Binaries
+plugin-helm
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Output
+*.out
+coverage.out
+
+# Dependency directories
+vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+.helm-packages/
+
+# Debug
+__debug_bin
+
+# Go workspace
+go.work
+go.work.sum
